@@ -1,4 +1,8 @@
-.tick:after {
+.thi-tick:after {
   color: #006400;
   content: '\2713';
+}
+
+.thi-highlight {
+  background-color: #fff2a8;
 }

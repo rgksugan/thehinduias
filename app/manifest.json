@@ -12,6 +12,7 @@
     "tabs", "contextMenus", "http://www.thehindu.com/*", "storage"
   ],
   "content_scripts": [{
+    "run_at": "document_end",
     "matches": ["http://www.thehindu.com/todays-paper/*"],
     "css": ["styles/main.css"],
     "js": ["bower_components/jquery/dist/jquery.js", "scripts/content-script.js"]
