@@ -1,0 +1,4 @@
+.tick:after {
+  color: #006400;
+  content: '\2713';
+}
