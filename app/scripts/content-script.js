@@ -34,6 +34,9 @@
     });
   });
 
+  // remove related articles
+  $('.OUTBRAIN').remove();
+
   // updates context menu on selection
   $(document).on('selectionchange', function() {
     var selection = window.getSelection().toString().trim();
